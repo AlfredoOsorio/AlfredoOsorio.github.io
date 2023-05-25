@@ -14,9 +14,7 @@ import {
   fas,
 } from "@fortawesome/free-solid-svg-icons";
 import {
-  faGithub,
-  faFacebook,
-  faInstagram,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
