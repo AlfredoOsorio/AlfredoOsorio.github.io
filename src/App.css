@@ -83,6 +83,15 @@ section{
   transform: translateY(-50%);
 }
 
+.controls .active-btn{
+  background-color: var(--color-secondary) !important;
+  transition: all .4s ease-in-out;
+}
+
+.active-btn i{
+  color: var(--color-white);
+}
+
 .controls .control{
   padding: 1rem;
   cursor: pointer;
@@ -90,9 +99,18 @@ section{
   width: 55px;
   height: 55px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .7rem 0;
+  box-shadow: var(--box-shadow-1);
 }
 
-
+.control i{
+  font-size: 1,2rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
 
 
 
