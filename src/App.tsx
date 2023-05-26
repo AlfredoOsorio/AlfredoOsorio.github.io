@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Control } from "./components/control";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,9 +14,7 @@ import {
   faR,
   fas,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
@@ -30,25 +29,16 @@ function App() {
         </main>
 
         <div className="controls">
-          <div className="control control-1 active-btn">
-            <FontAwesomeIcon icon={faHome} />
-          </div>
 
-          <div className="control control-2" data-id="about">
-            <FontAwesomeIcon icon={faUser} />
-          </div>
+          <Control buttonIcon={faHome} positionOfControlButton="control-1" data_idName="header" isItActiveButton={true}/>
 
-          <div className="control control-3" data-id="portfolio">
-            <FontAwesomeIcon icon={faBriefcase} />
-          </div>
+          <Control buttonIcon={faUser} positionOfControlButton="control-2" data_idName="about" isItActiveButton={false}/>
 
-          <div className="control control-4" data-id="blogs">
-            <FontAwesomeIcon icon={faNewspaper} />
-          </div>
+          <Control buttonIcon={faBriefcase} positionOfControlButton="control-3" data_idName="portfolio" isItActiveButton={false}/>
 
-          <div className="control control-5" data-id="contact">
-            <FontAwesomeIcon icon={faEnvelopeOpen} />
-          </div>
+          <Control buttonIcon={faNewspaper} positionOfControlButton="control-4" data_idName="blogs" isItActiveButton={false}/>
+
+          <Control buttonIcon={faEnvelopeOpen} positionOfControlButton="control-5" data_idName="contact" isItActiveButton={false}/>
         </div>
       </body>
     </div>
