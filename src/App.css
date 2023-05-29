@@ -89,7 +89,7 @@ section{
 }
 
 .active-btn i{
-  color: var(--color-white);
+  color: var(--color-white) !important;
 }
 
 .controls .control{
@@ -107,7 +107,7 @@ section{
 }
 
 .control i{
-  font-size: 1,2rem;
+  font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
 }

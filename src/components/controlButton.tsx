@@ -3,14 +3,14 @@ import React from "react";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-interface ControlProps {
+interface ControlButtonProps {
   buttonIcon: IconDefinition;
   positionOfControlButton: string;
   isItActiveButton: boolean;
   data_idName: string;
 }
 
-export function Control(props: ControlProps) {
+function ControlButtonSection(props: ControlButtonProps) {
   const { buttonIcon, positionOfControlButton, data_idName, isItActiveButton } =
     props;
 
@@ -24,3 +24,5 @@ export function Control(props: ControlProps) {
     </div>
   );
 }
+
+export default ControlButtonSection;

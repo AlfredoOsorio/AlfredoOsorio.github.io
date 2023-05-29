@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Control } from "./components/control";
+import ControlButtonSection from "./components/controlButton";
+import PageTransition from "./components/pageTransition"
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,19 +31,21 @@ function App() {
 
         <div className="controls">
 
-          <Control buttonIcon={faHome} positionOfControlButton="control-1" data_idName="header" isItActiveButton={true}/>
+          <ControlButtonSection buttonIcon={faHome} positionOfControlButton="control-1" data_idName="header" isItActiveButton={true}/>
 
-          <Control buttonIcon={faUser} positionOfControlButton="control-2" data_idName="about" isItActiveButton={false}/>
+          <ControlButtonSection buttonIcon={faUser} positionOfControlButton="control-2" data_idName="about" isItActiveButton={false}/>
 
-          <Control buttonIcon={faBriefcase} positionOfControlButton="control-3" data_idName="portfolio" isItActiveButton={false}/>
+          <ControlButtonSection buttonIcon={faBriefcase} positionOfControlButton="control-3" data_idName="portfolio" isItActiveButton={false}/>
 
-          <Control buttonIcon={faNewspaper} positionOfControlButton="control-4" data_idName="blogs" isItActiveButton={false}/>
+          <ControlButtonSection buttonIcon={faNewspaper} positionOfControlButton="control-4" data_idName="blogs" isItActiveButton={false}/>
 
-          <Control buttonIcon={faEnvelopeOpen} positionOfControlButton="control-5" data_idName="contact" isItActiveButton={false}/>
+          <ControlButtonSection buttonIcon={faEnvelopeOpen} positionOfControlButton="control-5" data_idName="contact" isItActiveButton={false}/>
         </div>
       </body>
     </div>
   );
 }
+
+PageTransition();
 
 export default App;
