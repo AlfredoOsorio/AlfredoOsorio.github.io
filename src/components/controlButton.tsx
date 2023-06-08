@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface ControlButtonProps {
   buttonIcon: IconDefinition;
-  positionOfControlButton: string;
+  positionOfControlButton: number;
   isItActiveButton: boolean;
   data_idName: string;
 }
@@ -15,8 +15,8 @@ function ControlButtonSection(props: ControlButtonProps) {
     props;
 
   const combinedClasses = isItActiveButton
-    ? `${positionOfControlButton} control active-btn`
-    : `${positionOfControlButton} control`;
+    ? `control-${positionOfControlButton} control active-btn`
+    : `control-${positionOfControlButton} control`;
 
   return (
     <div className={combinedClasses} data-id={data_idName}>
