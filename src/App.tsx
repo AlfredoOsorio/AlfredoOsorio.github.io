@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import PageTransition from "./components/pageTransition"
 import ControlPanel from "./components/controlPanel"
 
 function App() {
@@ -21,7 +20,5 @@ function App() {
     </div>
   );
 }
-
-PageTransition();
 
 export default App;
