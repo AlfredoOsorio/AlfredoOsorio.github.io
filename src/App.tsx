@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <body className="main-content">
-        <header className="section sec1 ehader active"></header>
+        <header className="section sec1 header active"></header>
         <main>
           <section className="section sec2 about"></section>
           <section className="section sec3 portfolio"></section>
