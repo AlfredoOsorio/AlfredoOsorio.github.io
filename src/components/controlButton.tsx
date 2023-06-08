@@ -1,4 +1,5 @@
 import React from "react";
+import PageTransition from "./pageTransition"
 
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +20,7 @@ function ControlButtonSection(props: ControlButtonProps) {
     : `control-${positionOfControlButton} control`;
 
   return (
-    <div className={combinedClasses} data-id={data_idName}>
+    <div className={combinedClasses} data-id={data_idName} onClick={PageTransition}>
       <FontAwesomeIcon icon={buttonIcon} />
     </div>
   );
