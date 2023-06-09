@@ -11,7 +11,8 @@ interface ControlButtonProps {
   data_idName: string;
 }
 
-function ControlButtonSection(props: ControlButtonProps) {
+function ControlButtonForSection(props: ControlButtonProps) {
+  
   const { buttonIcon, positionOfControlButton, data_idName, isItActiveButton } =
     props;
 
@@ -20,10 +21,10 @@ function ControlButtonSection(props: ControlButtonProps) {
     : `control-${positionOfControlButton} control`;
 
   return (
-    <div className={combinedClasses} data-id={data_idName} onClick={PageTransition}>
+    <div className={combinedClasses} data-id={data_idName} onClick={() => PageTransition(positionOfControlButton)}>
       <FontAwesomeIcon icon={buttonIcon} />
     </div>
   );
 }
 
-export default ControlButtonSection;
+export default ControlButtonForSection;

@@ -1,5 +1,5 @@
 import React from "react";
-import ControlButtonSection from "./controlButton";
+import ControlButtonForSection from "./controlButton";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,15 +20,15 @@ function ControlPanel() {
     return (
         <div className="controls">
 
-          <ControlButtonSection buttonIcon={faHome} positionOfControlButton={1} data_idName="header" isItActiveButton={true}/>
+          <ControlButtonForSection buttonIcon={faHome} positionOfControlButton={1} data_idName="header" isItActiveButton={true}/>
 
-          <ControlButtonSection buttonIcon={faUser} positionOfControlButton={2} data_idName="about" isItActiveButton={false}/>
+          <ControlButtonForSection buttonIcon={faUser} positionOfControlButton={2} data_idName="about" isItActiveButton={false}/>
 
-          <ControlButtonSection buttonIcon={faBriefcase} positionOfControlButton={3} data_idName="portfolio" isItActiveButton={false}/>
+          <ControlButtonForSection buttonIcon={faBriefcase} positionOfControlButton={3} data_idName="portfolio" isItActiveButton={false}/>
 
-          <ControlButtonSection buttonIcon={faNewspaper} positionOfControlButton={4} data_idName="blogs" isItActiveButton={false}/>
+          <ControlButtonForSection buttonIcon={faNewspaper} positionOfControlButton={4} data_idName="blogs" isItActiveButton={false}/>
 
-          <ControlButtonSection buttonIcon={faEnvelopeOpen} positionOfControlButton={5} data_idName="contact" isItActiveButton={false}/>
+          <ControlButtonForSection buttonIcon={faEnvelopeOpen} positionOfControlButton={5} data_idName="contact" isItActiveButton={false}/>
         </div>
       );
 }
