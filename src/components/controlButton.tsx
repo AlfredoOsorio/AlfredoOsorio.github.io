@@ -15,13 +15,13 @@ function ControlButtonForSection(props: ControlButtonProps) {
   const { buttonIcon, positionOfControlButton, data_idName, isItActiveButton } =
     props;
 
-  const combinedClasses = isItActiveButton
+  const controlButtonClasses = isItActiveButton
     ? `control-${positionOfControlButton} control active-btn`
     : `control-${positionOfControlButton} control`;
 
   return (
     <div
-      className={combinedClasses}
+      className={controlButtonClasses}
       data-id={data_idName}
       onClick={() => PageTransition(positionOfControlButton)}
     >

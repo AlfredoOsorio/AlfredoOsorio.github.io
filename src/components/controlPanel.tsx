@@ -21,7 +21,7 @@ function ControlPanel() {
       <ControlButtonForSection
         buttonIcon={faHome}
         positionOfControlButton={1}
-        data_idName="header"
+        data_idName="home"
         isItActiveButton={true}
       />
 
