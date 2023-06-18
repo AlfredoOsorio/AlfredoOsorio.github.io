@@ -6,12 +6,12 @@ function App() {
   return (
     <div className="App">
       <body className="main-content">
-        <header className="section sec1 header active" id="home"></header>
+        <header className="section section1 header active" id="home"></header>
         <main>
-          <section className="section sec2 about" id="about"></section>
-          <section className="section sec3 portfolio" id="portfolio"></section>
-          <section className="section sec4 blogs" id="blogs"></section>
-          <section className="section sec5 contacts" id="contact"></section>
+          <section className="section section2 about" id="about"></section>
+          <section className="section section3 portfolio" id="portfolio"></section>
+          <section className="section section4 blogs" id="blogs"></section>
+          <section className="section section5 contacts" id="contact"></section>
         </main>
 
         <ControlPanel />
