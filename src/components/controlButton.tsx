@@ -1,5 +1,5 @@
 import React from "react";
-import PageTransition from "./pageTransition"
+import PageTransition from "./pageTransition";
 
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +12,6 @@ interface ControlButtonProps {
 }
 
 function ControlButtonForSection(props: ControlButtonProps) {
-  
   const { buttonIcon, positionOfControlButton, data_idName, isItActiveButton } =
     props;
 
@@ -21,7 +20,11 @@ function ControlButtonForSection(props: ControlButtonProps) {
     : `control-${positionOfControlButton} control`;
 
   return (
-    <div className={combinedClasses} data-id={data_idName} onClick={() => PageTransition(positionOfControlButton)}>
+    <div
+      className={combinedClasses}
+      data-id={data_idName}
+      onClick={() => PageTransition(positionOfControlButton)}
+    >
       <FontAwesomeIcon icon={buttonIcon} />
     </div>
   );

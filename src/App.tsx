@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import ControlPanel from "./components/controlPanel"
+import ControlPanel from "./components/controlPanel";
 
 function App() {
   return (
@@ -14,8 +14,7 @@ function App() {
           <section className="section sec5 contacts"></section>
         </main>
 
-        <ControlPanel/>
-
+        <ControlPanel />
       </body>
     </div>
   );

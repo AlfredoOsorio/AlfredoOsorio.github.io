@@ -15,22 +15,45 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-
 function ControlPanel() {
-    return (
-        <div className="controls">
+  return (
+    <div className="controls">
+      <ControlButtonForSection
+        buttonIcon={faHome}
+        positionOfControlButton={1}
+        data_idName="header"
+        isItActiveButton={true}
+      />
 
-          <ControlButtonForSection buttonIcon={faHome} positionOfControlButton={1} data_idName="header" isItActiveButton={true}/>
+      <ControlButtonForSection
+        buttonIcon={faUser}
+        positionOfControlButton={2}
+        data_idName="about"
+        isItActiveButton={false}
+      />
 
-          <ControlButtonForSection buttonIcon={faUser} positionOfControlButton={2} data_idName="about" isItActiveButton={false}/>
+      <ControlButtonForSection
+        buttonIcon={faBriefcase}
+        positionOfControlButton={3}
+        data_idName="portfolio"
+        isItActiveButton={false}
+      />
 
-          <ControlButtonForSection buttonIcon={faBriefcase} positionOfControlButton={3} data_idName="portfolio" isItActiveButton={false}/>
+      <ControlButtonForSection
+        buttonIcon={faNewspaper}
+        positionOfControlButton={4}
+        data_idName="blogs"
+        isItActiveButton={false}
+      />
 
-          <ControlButtonForSection buttonIcon={faNewspaper} positionOfControlButton={4} data_idName="blogs" isItActiveButton={false}/>
-
-          <ControlButtonForSection buttonIcon={faEnvelopeOpen} positionOfControlButton={5} data_idName="contact" isItActiveButton={false}/>
-        </div>
-      );
+      <ControlButtonForSection
+        buttonIcon={faEnvelopeOpen}
+        positionOfControlButton={5}
+        data_idName="contact"
+        isItActiveButton={false}
+      />
+    </div>
+  );
 }
 
 export default ControlPanel;
