@@ -1,4 +1,3 @@
-import React from "react";
 import ControlButtonForSection from "./controlButton";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
