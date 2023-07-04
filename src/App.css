@@ -234,3 +234,20 @@ section {
   border-radius: 50%;
   padding: 1rem;
 }
+
+.downloadButton::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all .7s ease-out;
+  z-index: -1;
+}
+
+.downloadButton:hover::before{
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transform: translateX(0);
+}
