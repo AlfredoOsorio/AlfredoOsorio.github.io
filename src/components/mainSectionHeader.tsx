@@ -13,7 +13,7 @@ function MainSectionHeader() {
       </div>
       <div className="right-header">
         <h1 className="name">
-          Hi, i'm <span>Alfredo Osorio</span>, a web Developer.
+          Hi, I'm <span>Alfredo Osorio</span>, a web Developer.
         </h1>
         <p>Lorem Ipsum (ABOUT)</p>
         <div className="buttonContainer">

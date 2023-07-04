@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import ControlPanel from "./components/controlPanel";
 import MainSectionAbout from "./components/mainSectionAbout";
 import MainSectionHeader from "./components/mainSectionHeader"
