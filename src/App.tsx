@@ -1,12 +1,12 @@
 import "./App.css";
 import ControlPanel from "./components/controlPanel";
-import MainHeaderSection from "./components/mainHeaderSection"
+import MainSectionHeader from "./components/mainSectionHeader"
 
 function App() {
   return (
     <div className="App">
       <body className="main-content">
-        <MainHeaderSection />
+        <MainSectionHeader />
         <main>
           <section className="section section2 about" id="about"></section>
           <section className="section section3 portfolio" id="portfolio"></section>
