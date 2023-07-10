@@ -241,6 +241,18 @@ section {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
+  .left-about{
+    padding-right: 5rem;
+    p{
+      line-height: 2rem;
+      padding: 1rem;
+      color: var(--color-grey-1);
+    }
+    h4{
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  }
   .right-about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

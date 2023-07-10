@@ -1,4 +1,6 @@
 import DownloadButton from "../../Other components/downloadButton";
+import AboutItem from "./aboutItem";
+import MySkillsProgressBar from "./mySkillsProgressBar";
 
 function MainSectionAbout() {
   return (
@@ -17,18 +19,57 @@ function MainSectionAbout() {
             id rem optio excepturi corrupti ex esse laborum iste fugit eos ut
             dolorum rerum soluta doloremque nesciunt, omnis quam accusantium
             temporibus?
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+            id rem optio excepturi corrupti ex esse laborum iste fugit eos ut
+            dolorum rerum soluta doloremque nesciunt, omnis quam accusantium
+            temporibus?
           </p>
           <DownloadButton />
         </div>
         <div className="right-about">
-          <div className="about-item">
-            <div className="about-text">
-              <p className="large-text">10+</p>
-              <p className="small-text">Projects <br /> Completed</p>
-            </div>
-          </div>
+          <AboutItem
+            howManyObjects={10}
+            whatObjectsLine1="Projects"
+            whatObjectsLine2="Completed"
+          />
+
+          <AboutItem
+            howManyObjects={1}
+            whatObjectsLine1="Years of"
+            whatObjectsLine2="Experience"
+          />
+
+          <AboutItem
+            howManyObjects={5}
+            whatObjectsLine1="Years of"
+            whatObjectsLine2="Studying"
+          />
+
+
         </div>
       </div>
+      <div className="about-stats">
+            <h4 className="stat-title">My Skills</h4>
+
+            <MySkillsProgressBar
+              knowledgeAdquired={"HTML5"}
+              progressValueOfKnowledge={70}
+            />
+            <MySkillsProgressBar
+              knowledgeAdquired={"CSS3"}
+              progressValueOfKnowledge={80}
+            />
+            <MySkillsProgressBar
+              knowledgeAdquired={"JavaScrypt"}
+              progressValueOfKnowledge={60}
+            />
+            <MySkillsProgressBar
+              knowledgeAdquired={"React"}
+              progressValueOfKnowledge={40}
+            />
+          </div>
     </section>
   );
 }
