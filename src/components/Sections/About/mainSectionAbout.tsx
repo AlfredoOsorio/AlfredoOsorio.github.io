@@ -1,8 +1,6 @@
 import DownloadButton from "../../Other components/downloadButton";
 import AboutItem from "./aboutItem";
 import MySkillsProgressBar from "./mySkillsProgressBar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import TimelineItem from "./timelineItem";
 
 function MainSectionAbout() {
