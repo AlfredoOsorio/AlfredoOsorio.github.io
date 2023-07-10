@@ -1,18 +1,18 @@
 interface MySkillsProgressBarProps {
-    knowledgeAdquired: string;
-    progressValueOfKnowledge: number;
+    SkillAdquired: string;
+    progressValueOfSkill: number;
 }
 
 function MySkillsProgressBar(props: MySkillsProgressBarProps) {
-    const { knowledgeAdquired, progressValueOfKnowledge } =
+    const { SkillAdquired, progressValueOfSkill } =
     props;
   return (
-    <div className="all-progress-bars">
-      <p className="prog-title">{knowledgeAdquired}</p>
+    <div className="progress-bar">
+      <p className="progress-title">{SkillAdquired}</p>
       <div className="progress-container">
-        <p className="progress-text">{progressValueOfKnowledge}%</p>
-        <div className="progress-bar">
-          <span className={knowledgeAdquired}></span>
+        <p className="progress-text">{progressValueOfSkill}%</p>
+        <div className="progress-bar-">
+          <span className={SkillAdquired}></span>
         </div>
       </div>
     </div>

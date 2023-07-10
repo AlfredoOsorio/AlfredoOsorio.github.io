@@ -46,30 +46,29 @@ function MainSectionAbout() {
             whatObjectsLine1="Years of"
             whatObjectsLine2="Studying"
           />
-
-
         </div>
       </div>
       <div className="about-stats">
-            <h4 className="stat-title">My Skills</h4>
-
-            <MySkillsProgressBar
-              knowledgeAdquired={"HTML5"}
-              progressValueOfKnowledge={70}
-            />
-            <MySkillsProgressBar
-              knowledgeAdquired={"CSS3"}
-              progressValueOfKnowledge={80}
-            />
-            <MySkillsProgressBar
-              knowledgeAdquired={"JavaScrypt"}
-              progressValueOfKnowledge={60}
-            />
-            <MySkillsProgressBar
-              knowledgeAdquired={"React"}
-              progressValueOfKnowledge={40}
-            />
-          </div>
+        <h4 className="stat-title">My Skills</h4>
+        <div className="all-progress-bars">
+          <MySkillsProgressBar
+            SkillAdquired={"HTML5"}
+            progressValueOfSkill={70}
+          />
+          <MySkillsProgressBar
+            SkillAdquired={"CSS3"}
+            progressValueOfSkill={80}
+          />
+          <MySkillsProgressBar
+            SkillAdquired={"JavaScrypt"}
+            progressValueOfSkill={60}
+          />
+          <MySkillsProgressBar
+            SkillAdquired={"React"}
+            progressValueOfSkill={40}
+          />
+        </div>
+      </div>
     </section>
   );
 }
