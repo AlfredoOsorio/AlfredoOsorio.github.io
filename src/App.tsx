@@ -1,7 +1,7 @@
 import "./App.scss";
-import ControlPanel from "./components/controlPanel";
-import MainSectionAbout from "./components/mainSectionAbout";
-import MainSectionHeader from "./components/mainSectionHeader"
+import ControlPanel from "./components/Control panel/controlPanel";
+import MainSectionAbout from "./components/Sections/About/mainSectionAbout";
+import MainSectionHeader from "./components/Sections/Header/mainSectionHeader"
 
 function App() {
   return (

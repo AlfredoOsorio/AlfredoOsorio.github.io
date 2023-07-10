@@ -1,4 +1,4 @@
-import DownloadButton from "./downloadButton";
+import DownloadButton from "../../Other components/downloadButton";
 
 function MainSectionAbout() {
   return (
@@ -20,7 +20,14 @@ function MainSectionAbout() {
           </p>
           <DownloadButton />
         </div>
-        <div className="right-about"></div>
+        <div className="right-about">
+          <div className="about-item">
+            <div className="about-text">
+              <p className="large-text">10+</p>
+              <p className="small-text">Projects <br /> Completed</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
