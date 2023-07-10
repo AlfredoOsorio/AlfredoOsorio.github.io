@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #191d2b;
+  --color-primary: #2e0d39;
   --color-secondary: #27ae60;
   --color-white: #ffffff;
   --color-black: #000;
@@ -54,7 +54,6 @@ section {
 .section1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgba(179, 0, 255, 0.13);
 }
 
 .section2 {
@@ -301,7 +300,7 @@ section {
 
 .about-stats {
   padding-bottom: 4rem;
-  .all-progress-bar {
+  .all-progress-bars {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -325,11 +324,33 @@ section {
           margin-left: 1rem;
           position: relative;
           span{
-
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: var(--color-secondary);
+            transition: all 0.7s ease-in-out;
           }
         }
       }
     }
+  }
+}
+
+.stat-title{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 3.5rem 0;
+  position: relative;
+  &::before{
+    content: '';
+    left: 50%;
+    top: 0;
+    width: 40%;
+    height: 1px;
+    background-color: var(--color-grey-5);
+    transform: translateX(-50%);
   }
 }
 
