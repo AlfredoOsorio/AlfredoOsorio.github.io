@@ -1,4 +1,4 @@
-import myPicture from "../images/me.png";
+import myPicture from "../../../images/me.png";
 import DownloadButton from "../../Other components/downloadButton";
 
 function MainSectionHeader() {
