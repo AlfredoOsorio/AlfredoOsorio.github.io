@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import myPicture from "../images/me.png";
+import DownloadButton from "./downloadButton";
 
 function MainSectionHeader() {
   return (
@@ -16,14 +17,7 @@ function MainSectionHeader() {
           Hi, I'm <span>Alfredo Osorio</span>, a web Developer.
         </h1>
         <p>Lorem Ipsum (ABOUT)</p>
-        <div className="buttonContainer">
-          <a href="" className="downloadButton">
-            <span className="buttonText">Download CV</span>
-            <span className="buttonIcon">
-              <FontAwesomeIcon icon={faDownload} />
-            </span>
-          </a>
-        </div>
+        <DownloadButton />
       </div>
     </header>
   );
