@@ -53,19 +53,19 @@ function MainSectionAbout() {
         <div className="all-progress-bars">
           <MySkillsProgressBar
             SkillAdquired={"HTML5"}
-            progressValueOfSkill={70}
+            progressValueOfSkill={"70%"}
           />
           <MySkillsProgressBar
             SkillAdquired={"CSS3"}
-            progressValueOfSkill={80}
+            progressValueOfSkill={"80%"}
           />
           <MySkillsProgressBar
             SkillAdquired={"JavaScrypt"}
-            progressValueOfSkill={60}
+            progressValueOfSkill={"60%"}
           />
           <MySkillsProgressBar
             SkillAdquired={"React"}
-            progressValueOfSkill={40}
+            progressValueOfSkill={"40%"}
           />
         </div>
       </div>

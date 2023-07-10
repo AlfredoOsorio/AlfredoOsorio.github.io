@@ -1,6 +1,6 @@
 interface MySkillsProgressBarProps {
     SkillAdquired: string;
-    progressValueOfSkill: number;
+    progressValueOfSkill: string;
 }
 
 function MySkillsProgressBar(props: MySkillsProgressBarProps) {
@@ -10,7 +10,7 @@ function MySkillsProgressBar(props: MySkillsProgressBarProps) {
     <div className="skill-progress">
       <p className="skill-title">{SkillAdquired}</p>
       <div className="progress-container">
-        <p className="progress-text">{progressValueOfSkill}%</p>
+        <p className="progress-text">{progressValueOfSkill}</p>
         <div className="progress-bar">
           <span className={SkillAdquired}></span>
         </div>
