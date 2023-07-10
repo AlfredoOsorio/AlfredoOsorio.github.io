@@ -1,6 +1,8 @@
 import DownloadButton from "../../Other components/downloadButton";
 import AboutItem from "./aboutItem";
 import MySkillsProgressBar from "./mySkillsProgressBar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 function MainSectionAbout() {
   return (
@@ -67,6 +69,23 @@ function MainSectionAbout() {
             SkillAdquired={"React"}
             progressValueOfSkill={"55%"}
           />
+        </div>
+      </div>
+      <div className="timeline">
+        <div className="timeline-item">
+          <div className="timeline-icon">
+            <FontAwesomeIcon icon={faBriefcase} />
+          </div>
+          <p className="timeline-duration">2010 - present</p>
+          <h5>
+            Frontend Developer <span>- Alef Advertising</span>
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id
+            tempore possimus esse inventore non cum, dolore beatae, ipsa
+            explicabo magni tempora excepturi sit eveniet doloremque optio
+            tenetur voluptas laboriosam.
+          </p>
         </div>
       </div>
     </section>
