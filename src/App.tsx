@@ -13,8 +13,7 @@ function App() {
           <MainSectionAbout />
           
           <MainSectionPortfolio />
-          <section className="section section4 blogs" id="blogs"></section>
-          <section className="section section5 contacts" id="contact"></section>
+          <section className="section section4 contacts" id="contact"></section>
         </main>
 
         <ControlPanel />

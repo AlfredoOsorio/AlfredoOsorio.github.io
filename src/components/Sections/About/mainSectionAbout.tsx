@@ -16,16 +16,13 @@ function MainSectionAbout() {
         <div className="left-about">
           <h4>Information about me</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
-            id rem optio excepturi corrupti ex esse laborum iste fugit eos ut
-            dolorum rerum soluta doloremque nesciunt, omnis quam accusantium
-            temporibus?
+            Developer with broad knowledge in front-end technologies and
+            programming skills to make well-designed sites, with fresh methods
+            and structural thinking.
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
-            id rem optio excepturi corrupti ex esse laborum iste fugit eos ut
-            dolorum rerum soluta doloremque nesciunt, omnis quam accusantium
-            temporibus?
+            Passionate about math and programming, always improving my skills
+            and constantly challenging myself.
           </p>
           <DownloadButton />
         </div>
@@ -95,9 +92,7 @@ function MainSectionAbout() {
           duration={"04/2021 - present"}
           jobTitle={"Level 1 Helpdesk"}
           company={"AMP software / Eupraxia / Burger King Spain"}
-          description={
-            "Level 1 Helpdesk remote support for Burger King Spain."
-          }
+          description={"Level 1 Helpdesk remote support for Burger King Spain."}
           stackUsed={"Windows, Linux, Teamviewer"}
         />
       </div>

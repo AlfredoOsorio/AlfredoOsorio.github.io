@@ -33,15 +33,8 @@ function ControlPanel() {
       />
 
       <ControlButtonForSection
-        buttonIcon={faNewspaper}
-        positionOfControlButton={4}
-        data_idName="blogs"
-        isItActiveButton={false}
-      />
-
-      <ControlButtonForSection
         buttonIcon={faEnvelopeOpen}
-        positionOfControlButton={5}
+        positionOfControlButton={4}
         data_idName="contact"
         isItActiveButton={false}
       />
