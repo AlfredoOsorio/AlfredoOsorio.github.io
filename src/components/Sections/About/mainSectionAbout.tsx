@@ -71,7 +71,7 @@ function MainSectionAbout() {
         </div>
       </div>
       <div className="timeline">
-      <TimelineItem
+        <TimelineItem
           duration={"11/2019 - 02/2021"}
           jobTitle={"Front-end Developer"}
           company={"Alef Advertising"}
@@ -79,6 +79,26 @@ function MainSectionAbout() {
             "Collaborated as a front-end web developer in several projects from avariety of clients."
           }
           stackUsed={"HTML5, CSS3, JavaScript and React"}
+        />
+
+        <TimelineItem
+          duration={"11/2019 - present"}
+          jobTitle={"Freelancer"}
+          company={""}
+          description={
+            "Been working for myself, making random projects on my free time to stay up to date to the latest technologies."
+          }
+          stackUsed={"HTML, CSS, JavaScript, Typescrypt, React"}
+        />
+
+        <TimelineItem
+          duration={"04/2021 - present"}
+          jobTitle={"Level 1 Helpdesk"}
+          company={"AMP software / Eupraxia / Burger King Spain"}
+          description={
+            "Level 1 Helpdesk remote support for Burger King Spain."
+          }
+          stackUsed={"Windows, Linux, Teamviewer"}
         />
       </div>
     </section>
