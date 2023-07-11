@@ -1,6 +1,7 @@
 import "./App.scss";
 import ControlPanel from "./components/Control panel/controlPanel";
 import MainSectionAbout from "./components/Sections/About/mainSectionAbout";
+import MainSectionContact from "./components/Sections/Contact/mainSectionContact";
 import MainSectionHeader from "./components/Sections/Header/mainSectionHeader"
 import MainSectionPortfolio from "./components/Sections/Portfolio Section/mainSectionPortfolio";
 
@@ -13,7 +14,8 @@ function App() {
           <MainSectionAbout />
           
           <MainSectionPortfolio />
-          <section className="section section4 contacts" id="contact"></section>
+
+          <MainSectionContact  />
         </main>
 
         <ControlPanel />

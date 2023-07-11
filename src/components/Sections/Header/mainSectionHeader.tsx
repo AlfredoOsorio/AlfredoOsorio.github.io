@@ -15,7 +15,12 @@ function MainSectionHeader() {
           <h1 className="name">
             Hi, I'm <span>Alfredo Osorio</span>, a web Developer.
           </h1>
-          <p>Lorem Ipsum (ABOUT)</p>
+          <p>
+            I'm a developer specilized on web with a passion
+            for creating visually appealing and user-friendly websites. I
+            specialize in HTML, CSS, and TypeScript, and I'm eager to learn and
+            grow in the industry.
+          </p>
           <DownloadButton />
         </div>
       </div>

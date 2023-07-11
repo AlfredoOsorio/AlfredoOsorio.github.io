@@ -18,7 +18,8 @@ function MainSectionAbout() {
           <p>
             Developer with broad knowledge in front-end technologies and
             programming skills to make well-designed sites, with fresh methods
-            and structural thinking.
+            and structural thinking. Let's collaborate and bring innovative ideas
+            to life!
             <br />
             <br />
             Passionate about math and programming, always improving my skills
