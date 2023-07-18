@@ -10,7 +10,7 @@ function MainSectionPortfolio() {
           <span className="background-text">my work</span>
         </h2>
       </div>
-{/*       <p className="portfolio-text">
+      <p className="portfolio-text">
         Here is some of my work, that i've done in various projects.
       </p>
       <div className="portfolios">
@@ -22,12 +22,12 @@ function MainSectionPortfolio() {
             <h3>Project Source</h3>
             <div className="icons">
               <a href="" target="_blank">
-              <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }
