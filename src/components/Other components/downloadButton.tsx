@@ -5,8 +5,8 @@ function DownloadButton() {
   return (
     <div className="buttonContainer">
       <a href="" className="downloadButton">
-        <span className="buttonText">Download CV</span>
-        <span className="buttonIcon">
+        <span className="downloadButtonText">Download CV</span>
+        <span className="downloadButtonIcon">
           <FontAwesomeIcon icon={faDownload} />
         </span>
       </a>

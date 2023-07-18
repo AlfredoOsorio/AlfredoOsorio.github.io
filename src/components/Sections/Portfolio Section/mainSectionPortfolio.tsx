@@ -1,5 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import PortfolioItem from "./portfolioItem";
+import ProjectImg1 from "../../../images/port1.jpg";
+import ProjectImg2 from "../../../images/port2.jpg";
+import ProjectImg3 from "../../../images/port3.jpg";
+import ProjectImg4 from "../../../images/port4.jpg";
+import ProjectImg5 from "../../../images/port5.jpg";
+import ProjectImg6 from "../../../images/port6.jpg";
 
 function MainSectionPortfolio() {
   return (
@@ -14,19 +19,41 @@ function MainSectionPortfolio() {
         Here is some of my work, that i've done in various projects.
       </p>
       <div className="portfolios">
-        <div className="portfolio-item">
-          <div className="image">
-            <img src="" alt="_To be added_" />
-          </div>
-          <div className="hover-items">
-            <h3>Project Source</h3>
-            <div className="icons">
-              <a href="" target="_blank">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </div>
-          </div>
-        </div>
+        <PortfolioItem
+          portfolioItemImageSrc={ProjectImg1}
+          portfolioProjectName={"project 1"}
+          portfolioProjectUrl={""}
+        />
+
+        <PortfolioItem
+          portfolioItemImageSrc={ProjectImg2}
+          portfolioProjectName={"project 2"}
+          portfolioProjectUrl={""}
+        />
+
+        <PortfolioItem
+          portfolioItemImageSrc={ProjectImg3}
+          portfolioProjectName={"project 3"}
+          portfolioProjectUrl={""}
+        />
+
+        <PortfolioItem
+          portfolioItemImageSrc={ProjectImg4}
+          portfolioProjectName={"project 4"}
+          portfolioProjectUrl={""}
+        />
+
+        <PortfolioItem
+          portfolioItemImageSrc={ProjectImg5}
+          portfolioProjectName={"project 5"}
+          portfolioProjectUrl={""}
+        />
+
+        <PortfolioItem
+          portfolioItemImageSrc={ProjectImg6}
+          portfolioProjectName={"project 6"}
+          portfolioProjectUrl={""}
+        />
       </div>
     </section>
   );

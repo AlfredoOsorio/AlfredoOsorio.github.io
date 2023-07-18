@@ -18,8 +18,8 @@ function MainSectionAbout() {
           <p>
             Developer with broad knowledge in front-end technologies and
             programming skills to make well-designed sites, with fresh methods
-            and structural thinking. Let's collaborate and bring innovative ideas
-            to life!
+            and structural thinking. Let's collaborate and bring innovative
+            ideas to life!
             <br />
             <br />
             Passionate about math and programming, always improving my skills
@@ -40,11 +40,7 @@ function MainSectionAbout() {
             whatObjectsLine2="Experience"
           />
 
-          <AboutItem
-            howManyObjects={5}
-            whatObjectsLine1="Years of"
-            whatObjectsLine2="Studying"
-          />
+
         </div>
       </div>
       <div className="about-stats">
@@ -84,7 +80,7 @@ function MainSectionAbout() {
           jobTitle={"Freelancer"}
           company={""}
           description={
-            "Been working for myself, making random projects on my free time to stay up to date to the latest technologies."
+            "Been working for myself, making several projects on my free time to stay up to date to the latest technologies."
           }
           stackUsed={"HTML, CSS, JavaScript, Typescrypt, React"}
         />
