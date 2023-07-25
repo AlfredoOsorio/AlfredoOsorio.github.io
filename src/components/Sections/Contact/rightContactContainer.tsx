@@ -10,8 +10,9 @@ function RightContactContainer() {
                 <input type="text" required placeholder="Enter subject"/>
             </div>
             <div className="input-control">
-                <textarea name="" id="" cols="15" rows="8"></textarea>
+                <textarea name="" id="" cols={15} rows={8}></textarea>
             </div>
+            <div className="submit-button"></div>
         </form>
       </div>
     );

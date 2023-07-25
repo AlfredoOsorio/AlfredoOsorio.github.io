@@ -1,4 +1,5 @@
-import DownloadButton from "../../Other components/animatedButton";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import AnimatedButton from "../../Other components/animatedButton";
 import AboutItem from "./aboutItem";
 import MySkillsProgressBar from "./mySkillsProgressBar";
 import TimelineItem from "./timelineItem";
@@ -25,7 +26,14 @@ function MainSectionAbout() {
             Passionate about math and programming, always improving my skills
             and constantly challenging myself.
           </p>
-          <DownloadButton />
+          <AnimatedButton
+            buttonLink={""}
+            buttonClassType={"downloadButton"}
+            spanClassNameOfButtonName={"downloadButtonText"}
+            spanButtonInfo={"Download CV"}
+            spanClassNameOfButtonIcon={"downloadButtonIcon"}
+            spanButtonIcon={faDownload}
+          />
         </div>
         <div className="right-about">
           <AboutItem

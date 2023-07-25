@@ -1,5 +1,5 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface ControlButtonProps {
@@ -20,11 +20,21 @@ function PortfolioItem(props: ControlButtonProps) {
       <div className="hover-items">
         <h3>{portfolioProjectName}</h3>
         <div className="portfolio-icons">
-          <a href={portfolioProjectUrl} target="_blank" className="portfolio-icon" rel="noreferrer">
+          <a
+            href={portfolioProjectUrl}
+            target="_blank"
+            className="portfolio-icon"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href={portfolioProjectUrl} target="_blank" className="portfolio-icon" rel="noreferrer">
-            <FontAwesomeIcon icon={faCode} />
+          <a
+            href={portfolioProjectUrl}
+            target="_blank"
+            className="portfolio-icon"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </a>
         </div>
       </div>
