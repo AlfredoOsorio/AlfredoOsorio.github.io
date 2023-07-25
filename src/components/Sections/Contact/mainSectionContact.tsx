@@ -1,5 +1,6 @@
 
 import LeftContactContainer from "./leftContactContainer";
+import RightContactContainer from "./rightContactContainer";
 
 function MainSectionContact() {
   return (
@@ -14,8 +15,8 @@ function MainSectionContact() {
         <div className="contact-content-container">
 
           <LeftContactContainer  />
-          
-          <div className="right-contact-container"></div>
+
+          <RightContactContainer  />
         </div>
       </div>
     </section>
