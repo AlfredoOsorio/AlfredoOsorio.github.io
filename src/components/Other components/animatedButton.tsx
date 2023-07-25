@@ -3,22 +3,19 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 
 interface AnimatedButtonProps {
   buttonLink: string;
-  buttonClassType: string;
-  spanClassNameOfButtonName: string;
   spanButtonInfo: string;
-  spanClassNameOfButtonIcon: string;
   spanButtonIcon: IconDefinition;
 
 }
 
 function AnimatedButton(props: AnimatedButtonProps) {
-  const { buttonLink, buttonClassType, spanClassNameOfButtonName, spanButtonInfo, spanClassNameOfButtonIcon, spanButtonIcon } = props;
+  const { buttonLink, spanButtonInfo, spanButtonIcon } = props;
 
   return (
-    <div className="buttonContainer">
-      <a href={buttonLink} className={buttonClassType}>
-        <span className={spanClassNameOfButtonName}>{spanButtonInfo}</span>
-        <span className={spanClassNameOfButtonIcon}>
+    <div className="button-container">
+      <a href={buttonLink} className="animated-button">
+        <span className="animated-button-text">{spanButtonInfo}</span>
+        <span className="animated-button-icon">
           <FontAwesomeIcon icon={spanButtonIcon} />
         </span>
       </a>

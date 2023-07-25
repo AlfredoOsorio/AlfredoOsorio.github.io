@@ -180,12 +180,12 @@ section {
   }
 }
 
-.buttonContainer {
+.button-container {
   display: flex;
   align-self: flex-start;
 }
 
-.downloadButton {
+.animated-button {
   border-radius: 30px;
   color: inherit;
   font-weight: 600;
@@ -196,10 +196,10 @@ section {
   display: flex;
   align-items: center;
   overflow: hidden;
-  .downloadButtonText {
+  .animated-button-text {
     padding: 0 2rem;
   }
-  .downloadButtonIcon {
+  .animated-button-icon {
     background-color: var(--color-secondary);
     display: flex;
     align-items: center;
@@ -473,8 +473,35 @@ section {
 .contact-content-container {
   display: flex;
   padding-top: 3.5rem;
-  .left-contact{
+  .left-contact-container {
     flex: 2;
+  }
+  .right-contact-container {
+    flex: 3;
+    margin-left: 3rem;
+    .input-control {
+      margin: 1.5rem 0;
+      input,
+      textarea {
+        border-radius: 30px;
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        padding: 0.8rem 1.1rem;
+        outline: none;
+        border: none;
+        background-color: var(--color-grey-5);
+        width: 100%;
+        color: var(--color-white);
+        resize: none;
+      }
+    }
+    .name-and-email-input {
+      display: flex;
+      :last-child {
+        margin-left: 1.5rem;
+      }
+    }
   }
 }
 

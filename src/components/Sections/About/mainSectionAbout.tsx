@@ -28,10 +28,7 @@ function MainSectionAbout() {
           </p>
           <AnimatedButton
             buttonLink={""}
-            buttonClassType={"downloadButton"}
-            spanClassNameOfButtonName={"downloadButtonText"}
             spanButtonInfo={"Download CV"}
-            spanClassNameOfButtonIcon={"downloadButtonIcon"}
             spanButtonIcon={faDownload}
           />
         </div>
@@ -47,8 +44,6 @@ function MainSectionAbout() {
             whatObjectsLine1="Years of"
             whatObjectsLine2="Experience"
           />
-
-
         </div>
       </div>
       <div className="about-stats">

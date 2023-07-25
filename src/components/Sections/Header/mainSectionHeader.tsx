@@ -17,17 +17,14 @@ function MainSectionHeader() {
             Hi, I'm <span>Alfredo Osorio</span>, a web Developer.
           </h1>
           <p>
-            I'm a developer specilized on web with a passion
-            for creating visually appealing and user-friendly websites. I
-            specialize in HTML, CSS, and TypeScript, and I'm eager to learn and
-            grow in the industry.
+            I'm a developer specilized on web with a passion for creating
+            visually appealing and user-friendly websites. I specialize in HTML,
+            CSS, and TypeScript, and I'm eager to learn and grow in the
+            industry.
           </p>
           <AnimatedButton
             buttonLink={""}
-            buttonClassType={"downloadButton"}
-            spanClassNameOfButtonName={"downloadButtonText"}
             spanButtonInfo={"Download CV"}
-            spanClassNameOfButtonIcon={"downloadButtonIcon"}
             spanButtonIcon={faDownload}
           />
         </div>
