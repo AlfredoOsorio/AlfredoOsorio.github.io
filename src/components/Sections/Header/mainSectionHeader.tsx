@@ -1,5 +1,6 @@
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import myPicture from "../../../images/me.png";
-import DownloadButton from "../../Other components/downloadButton";
+import AnimatedButton from "../../Other components/animatedButton";
 
 function MainSectionHeader() {
   return (
@@ -21,7 +22,14 @@ function MainSectionHeader() {
             specialize in HTML, CSS, and TypeScript, and I'm eager to learn and
             grow in the industry.
           </p>
-          <DownloadButton />
+          <AnimatedButton
+            buttonLink={""}
+            buttonClassType={"downloadButton"}
+            spanClassNameOfButtonName={"downloadButtonText"}
+            spanButtonInfo={"Download CV"}
+            spanClassNameOfButtonIcon={"downloadButtonIcon"}
+            spanButtonIcon={faDownload}
+          />
         </div>
       </div>
     </header>

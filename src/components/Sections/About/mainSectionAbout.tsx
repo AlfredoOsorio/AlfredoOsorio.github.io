@@ -1,4 +1,4 @@
-import DownloadButton from "../../Other components/downloadButton";
+import DownloadButton from "../../Other components/animatedButton";
 import AboutItem from "./aboutItem";
 import MySkillsProgressBar from "./mySkillsProgressBar";
 import TimelineItem from "./timelineItem";
