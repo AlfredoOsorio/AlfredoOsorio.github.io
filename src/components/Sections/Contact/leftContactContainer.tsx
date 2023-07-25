@@ -5,6 +5,8 @@ import {
   faLanguage,
 } from "@fortawesome/free-solid-svg-icons";
 import ContactItem from "./contactItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function LeftContactContainer() {
   return (
@@ -37,6 +39,19 @@ function LeftContactContainer() {
           contactItemName={"Languages"}
           contactItemInfo={"English, Spanish"}
         />
+      </div>
+
+      <div className="contact-social-icons">
+        <div className="contact-icon">
+          <a href="www.facebook.com" target="_blank">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
+        <div className="contact-icon">
+          <a href="www.facebook.com" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </div>
       </div>
     </div>
   );
