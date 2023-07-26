@@ -2,10 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 interface ContactItemProps {
-    buttonIcon: IconDefinition;
-    contactItemName: string;
-    contactItemInfo: string;
-
+  buttonIcon: IconDefinition;
+  contactItemName: string;
+  contactItemInfo: string;
 }
 
 function ContactItem(props: ContactItemProps) {
@@ -13,11 +12,11 @@ function ContactItem(props: ContactItemProps) {
 
   return (
     <div className="contact-item">
-      <div className="icon">
-        <FontAwesomeIcon icon={buttonIcon} />
-        {contactItemName}
+      <div className="contact-item-name">
+        <FontAwesomeIcon className="contact-icon" icon={buttonIcon} />
+        {contactItemName}:
       </div>
-      <p>: {contactItemInfo}</p>
+      <p>{contactItemInfo}</p>
     </div>
   );
 }
