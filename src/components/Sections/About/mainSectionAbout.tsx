@@ -81,7 +81,7 @@ function MainSectionAbout() {
         <TimelineItem
           duration={"11/2019 - present"}
           jobTitle={"Freelancer"}
-          company={""}
+          company={"Self-employed"}
           description={
             "Been working for myself, making several projects on my free time to stay up to date to the latest technologies."
           }
