@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #2e0d39;
+  --color-primary: #191d2b; /* another posible color -> #2e0d39 */
   --color-secondary: #27ae60;
   --color-white: #ffffff;
   --color-black: #000;
@@ -475,6 +475,67 @@ section {
   padding-top: 3.5rem;
   .left-contact-container {
     flex: 2;
+    h4 {
+      margin-top: 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+    p {
+      margin: 1rem 0;
+      line-height: 2rem;
+    }
+
+    .contact-info {
+      .contact-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+          margin: 0.3rem 0 !important;
+          padding: 0 !important;
+        }
+        .contact-item-name {
+          display: grid;
+          grid-template-columns: 40px 1fr;
+          .contact-icon {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    .contact-social-networks-icons{
+      display: flex;
+      margin-top: 2rem;
+      a{
+        display: flex;
+        align-items: center;
+        color: var(--color-white);
+        background-color: var(--color-grey-5);
+        cursor: pointer;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 1rem;
+        transition: all 0.7s ease-in-out;
+        &:hover{
+          background-color: var(--color-secondary);
+          .contact-social-networks-icon{
+            color: var(--color-primary);
+          }
+        }
+        .contact-social-networks-icon{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 2.5rem;
+        }
+      }
+
+    }
   }
   .right-contact-container {
     flex: 3;
@@ -501,6 +562,11 @@ section {
       :last-child {
         margin-left: 1.5rem;
       }
+    }
+    .submit-button {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 2rem;
     }
   }
 }
