@@ -12,12 +12,12 @@ function LeftContactContainer() {
   return (
     <div className="left-contact-container">
       <h4>Contact me here</h4>
-      <p>
+{/*       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit esse
         blanditiis explicabo aut debitis dolores soluta molestiae? Beatae
         voluptates inventore aut molestias minima, molestiae enim ad commodi
         distinctio ipsa.
-      </p>
+      </p> */}
       <div className="contact-info">
         <ContactItem
           buttonIcon={faLocationDot}
@@ -40,18 +40,20 @@ function LeftContactContainer() {
           contactItemInfo={"English, Spanish"}
         />
       </div>
+      <div className="contact-social-networks-icons">
+        <a href="www.facebook.com" target="_blank">
+          <FontAwesomeIcon
+            className="contact-social-networks-icon"
+            icon={faGithub}
+          />
+        </a>
 
-      <div className="contact-social-icons">
-        <div className="contact-icon">
-          <a href="www.facebook.com" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </div>
-        <div className="contact-icon">
-          <a href="www.facebook.com" target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </div>
+        <a href="www.facebook.com" target="_blank">
+          <FontAwesomeIcon
+            className="contact-social-networks-icon"
+            icon={faLinkedin}
+          />
+        </a>
       </div>
     </div>
   );
