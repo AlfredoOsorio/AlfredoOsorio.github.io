@@ -1,4 +1,4 @@
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import AnimatedButton from "../../Other components/animatedButton";
 
 function RightContactContainer() {
@@ -19,7 +19,7 @@ function RightContactContainer() {
           <AnimatedButton
             buttonLink={""}
             spanButtonInfo={"Submit"}
-            spanButtonIcon={faDownload}
+            spanButtonIcon={faCheck}
           />
         </div>
       </form>
