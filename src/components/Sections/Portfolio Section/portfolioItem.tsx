@@ -5,11 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 interface ControlButtonProps {
   portfolioItemImageSrc: string;
   portfolioProjectName: string;
+  portfolioProjectGithub: string;
   portfolioProjectUrl: string;
 }
 
 function PortfolioItem(props: ControlButtonProps) {
-  const { portfolioItemImageSrc, portfolioProjectName, portfolioProjectUrl } =
+  const { portfolioItemImageSrc, portfolioProjectName, portfolioProjectGithub, portfolioProjectUrl } =
     props;
 
   return (
@@ -21,7 +22,7 @@ function PortfolioItem(props: ControlButtonProps) {
         <h3>{portfolioProjectName}</h3>
         <div className="portfolio-icons">
           <a
-            href={portfolioProjectUrl}
+            href={portfolioProjectGithub}
             target="_blank"
             className="portfolio-icon"
             rel="noreferrer"
