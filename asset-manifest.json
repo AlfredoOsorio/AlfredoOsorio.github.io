@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d5fd065.css",
-    "main.js": "/static/js/main.09d7ef61.js",
+    "main.css": "/static/css/main.6e7c846b.css",
+    "main.js": "/static/js/main.e5f84a72.js",
     "static/js/787.bdc7c448.chunk.js": "/static/js/787.bdc7c448.chunk.js",
     "static/media/me.png": "/static/media/me.cae5f32d0658e77bff61.png",
-    "static/media/port2.jpg": "/static/media/port2.10c0c7033e2042271396.jpg",
-    "static/media/port6.jpg": "/static/media/port6.b3ef7c84d7e735ea86d8.jpg",
-    "static/media/port4.jpg": "/static/media/port4.b26e98b87db3a1cfff2e.jpg",
-    "static/media/port3.jpg": "/static/media/port3.cddca24c1935baa407df.jpg",
-    "static/media/port1.jpg": "/static/media/port1.1a095b25152a6ea3544c.jpg",
-    "static/media/port5.jpg": "/static/media/port5.3fcd20b1389518208ff5.jpg",
+    "static/media/portfolio1 - Drum kit.jpg": "/static/media/portfolio1 - Drum kit.d992ba3089334cf34ecb.jpg",
+    "static/media/portfolio4 - Keeper app.jpg": "/static/media/portfolio4 - Keeper app.43066c187353ec62b616.jpg",
+    "static/media/portfolio2 - Dice game.jpg": "/static/media/portfolio2 - Dice game.9b816703c62a4ff2a137.jpg",
+    "static/media/portfolio3 - Simon says.jpg": "/static/media/portfolio3 - Simon says.ead1b9c4de59795535a9.jpg",
     "index.html": "/index.html",
-    "main.4d5fd065.css.map": "/static/css/main.4d5fd065.css.map",
-    "main.09d7ef61.js.map": "/static/js/main.09d7ef61.js.map",
+    "main.6e7c846b.css.map": "/static/css/main.6e7c846b.css.map",
+    "main.e5f84a72.js.map": "/static/js/main.e5f84a72.js.map",
     "787.bdc7c448.chunk.js.map": "/static/js/787.bdc7c448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d5fd065.css",
-    "static/js/main.09d7ef61.js"
+    "static/css/main.6e7c846b.css",
+    "static/js/main.e5f84a72.js"
   ]
 }
