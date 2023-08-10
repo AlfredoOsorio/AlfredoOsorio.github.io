@@ -1,10 +1,10 @@
 import PortfolioItem from "./portfolioItem";
-import ProjectImg1 from "../../../images/port1.jpg";
-import ProjectImg2 from "../../../images/port2.jpg";
-import ProjectImg3 from "../../../images/port3.jpg";
-import ProjectImg4 from "../../../images/port4.jpg";
-import ProjectImg5 from "../../../images/port5.jpg";
-import ProjectImg6 from "../../../images/port6.jpg";
+import ProjectImg1 from "../../../images/portfolio1 - Drum kit.jpg";
+import ProjectImg2 from "../../../images/portfolio2 - Dice game.jpg";
+import ProjectImg3 from "../../../images/portfolio3 - Simon says.jpg";
+import ProjectImg4 from "../../../images/portfolio4 - Keeper app.jpg";
+/* import ProjectImg5 from "../../../images/port5.jpg";
+import ProjectImg6 from "../../../images/port6.jpg"; */
 
 function MainSectionPortfolio() {
   return (
@@ -21,39 +21,45 @@ function MainSectionPortfolio() {
       <div className="portfolios">
         <PortfolioItem
           portfolioItemImageSrc={ProjectImg1}
-          portfolioProjectName={"project 1"}
-          portfolioProjectUrl={""}
+          portfolioProjectName={"Drum kit"}
+          portfolioProjectUrl={"https://drum-kit-by-alfredo.netlify.app"}
+          portfolioProjectGithub={"https://github.com/AlfredoOsorio/Udemy-The-complete-web-Development-Course/tree/182cb270cbe568f92f1ce937caf42714ec1ec674/Drum%20Kit%20Starting%20Files"}
         />
 
         <PortfolioItem
           portfolioItemImageSrc={ProjectImg2}
-          portfolioProjectName={"project 2"}
-          portfolioProjectUrl={""}
+          portfolioProjectName={"Dice game"}
+          portfolioProjectUrl={"https://dice-game-by-alfredo.netlify.app/"}
+          portfolioProjectGithub={"https://github.com/AlfredoOsorio/Udemy-The-complete-web-Development-Course/tree/182cb270cbe568f92f1ce937caf42714ec1ec674/Dicee%20Challenge%20-%20Starting%20Files"}
         />
 
         <PortfolioItem
           portfolioItemImageSrc={ProjectImg3}
-          portfolioProjectName={"project 3"}
-          portfolioProjectUrl={""}
+          portfolioProjectName={"Simon says"}
+          portfolioProjectUrl={"https://simon-says-game-by-alfredo.netlify.app/"}
+          portfolioProjectGithub={"https://github.com/AlfredoOsorio/Udemy-The-complete-web-Development-Course/tree/182cb270cbe568f92f1ce937caf42714ec1ec674/Simon%20Game%20Challenge%20Starting%20Files"}
         />
 
         <PortfolioItem
           portfolioItemImageSrc={ProjectImg4}
-          portfolioProjectName={"project 4"}
-          portfolioProjectUrl={""}
+          portfolioProjectName={"Keeper app"}
+          portfolioProjectUrl={"https://keeper-app-by-alfredo.netlify.app/"}
+          portfolioProjectGithub={"https://github.com/AlfredoOsorio/Udemy-The-complete-web-Development-Course/tree/182cb270cbe568f92f1ce937caf42714ec1ec674/React.js/34%20-%20433.%20Keeper%20App%20Project%20-%20Part%203"}
         />
 
-        <PortfolioItem
+{/*         <PortfolioItem
           portfolioItemImageSrc={ProjectImg5}
           portfolioProjectName={"project 5"}
           portfolioProjectUrl={""}
+          portfolioProjectGithub={""}
         />
 
         <PortfolioItem
           portfolioItemImageSrc={ProjectImg6}
           portfolioProjectName={"project 6"}
           portfolioProjectUrl={""}
-        />
+          portfolioProjectGithub={""}
+        /> */}
       </div>
     </section>
   );
