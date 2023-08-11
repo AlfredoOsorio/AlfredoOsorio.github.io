@@ -88,13 +88,13 @@ function MainSectionAbout() {
           stackUsed={"HTML, CSS, JavaScript, Typescrypt, React"}
         />
 
-        <TimelineItem
+{/*         <TimelineItem
           duration={"04/2021 - present"}
           jobTitle={"Level 1 Helpdesk"}
           company={"AMP software / Eupraxia / Burger King Spain"}
           description={"Level 1 Helpdesk remote support for Burger King Spain."}
           stackUsed={"Windows, Linux, Teamviewer"}
-        />
+        /> */}
       </div>
     </section>
   );
