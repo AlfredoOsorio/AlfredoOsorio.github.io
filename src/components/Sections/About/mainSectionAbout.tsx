@@ -27,7 +27,7 @@ function MainSectionAbout() {
             and constantly challenging myself.
           </p>
           <AnimatedButton
-            buttonLink={""}
+            buttonLink={"https://github.com/AlfredoOsorio/AlfredoOsorio.github.io/blob/d0990d87e51f761175ede618612d848219476d6b/src/My%20CV/CV%20Alfredo%20Osorio.pdf"}
             spanButtonInfo={"Download CV"}
             spanButtonIcon={faDownload}
           />
