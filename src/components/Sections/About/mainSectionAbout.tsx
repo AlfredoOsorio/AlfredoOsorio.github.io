@@ -27,7 +27,9 @@ function MainSectionAbout() {
             and constantly challenging myself.
           </p>
           <AnimatedButton
-            buttonLink={"https://github.com/AlfredoOsorio/AlfredoOsorio.github.io/blob/d0990d87e51f761175ede618612d848219476d6b/src/My%20CV/CV%20Alfredo%20Osorio.pdf"}
+            buttonLink={
+              "https://github.com/AlfredoOsorio/AlfredoOsorio.github.io/blob/d0990d87e51f761175ede618612d848219476d6b/src/My%20CV/CV%20Alfredo%20Osorio.pdf"
+            }
             spanButtonInfo={"Download CV"}
             spanButtonIcon={faDownload}
           />
@@ -40,7 +42,7 @@ function MainSectionAbout() {
           />
 
           <AboutItem
-            howManyObjects={1}
+            howManyObjects={3}
             whatObjectsLine1="Years of"
             whatObjectsLine2="Experience"
           />
@@ -59,40 +61,54 @@ function MainSectionAbout() {
           />
           <MySkillsProgressBar
             SkillAdquired={"JavaScrypt"}
-            progressValueOfSkill={"80%"}
+            progressValueOfSkill={"75%"}
+          />
+          <MySkillsProgressBar
+            SkillAdquired={"TypeScrypt"}
+            progressValueOfSkill={"70%"}
           />
           <MySkillsProgressBar
             SkillAdquired={"React"}
-            progressValueOfSkill={"55%"}
+            progressValueOfSkill={"65%"}
           />
         </div>
       </div>
       <div className="timeline">
         <TimelineItem
           duration={"11/2019 - 02/2021"}
-          jobTitle={"Front-end Developer"}
+          jobTitle={"Frontend Developer"}
           company={"Alef Advertising"}
           description={
-            "Collaborated as a front-end web developer in several projects from avariety of clients."
+            "Collaborated as a frontend web developer in several projects from a variety of clients."
           }
-          stackUsed={"HTML5, CSS3, JavaScript and React"}
+          stackUsed={"HTML5, CSS3, JavaScript, React"}
         />
 
-        <TimelineItem
+        {/*         <TimelineItem
           duration={"11/2019 - present"}
-          jobTitle={"Freelancer"}
+          jobTitle={"Frontend Developer"}
+          company={"People & Brand"}
+          description={
+            "Lead frontend web developer for several projects from a variety of clients."
+          }
+          stackUsed={"HTML, CSS, JavaScript"}
+        /> */}
+
+        <TimelineItem
+          duration={"10/2023 - present"}
+          jobTitle={"Frontend Freelancer"}
           company={"Self-employed"}
           description={
             "Been working for myself, making several projects on my free time to stay up to date to the latest technologies."
           }
-          stackUsed={"HTML, CSS, JavaScript, Typescrypt, React"}
+          stackUsed={"HTML5, CSS, JavaScript, Typescrypt, React"}
         />
 
-{/*         <TimelineItem
-          duration={"04/2021 - present"}
-          jobTitle={"Level 1 Helpdesk"}
+        {/*         <TimelineItem
+          duration={"04/2021 - 04/2023"}
+          jobTitle={"Level 2 Helpdesk"}
           company={"AMP software / Eupraxia / Burger King Spain"}
-          description={"Level 1 Helpdesk remote support for Burger King Spain."}
+          description={"Level 2 Helpdesk remote support for Burger King Spain."}
           stackUsed={"Windows, Linux, Teamviewer"}
         /> */}
       </div>
