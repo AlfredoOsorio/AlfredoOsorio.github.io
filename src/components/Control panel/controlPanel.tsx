@@ -4,7 +4,6 @@ import {
   faHome,
   faUser,
   faBriefcase,
-  faNewspaper,
   faEnvelopeOpen,
 } from "@fortawesome/free-solid-svg-icons";
 
