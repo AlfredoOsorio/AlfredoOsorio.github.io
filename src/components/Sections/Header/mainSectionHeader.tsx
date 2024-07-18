@@ -4,7 +4,7 @@ import AnimatedButton from "../../Other components/animatedButton";
 
 function MainSectionHeader() {
   return (
-    <header className="section section1 header active" id="home">
+    <header className="section section1 header active-section" id="home">
       <div className="header-content">
         <div className="left-header">
           <div className="header-shape"></div>
