@@ -15,7 +15,7 @@ function ControlButtonForSection(props: ControlButtonProps) {
     props;
 
   const controlButtonClasses = isItActiveButton
-    ? `control-${positionOfControlButton} control active-btn`
+    ? `control-${positionOfControlButton} control active-button`
     : `control-${positionOfControlButton} control`;
 
   return (
@@ -24,7 +24,7 @@ function ControlButtonForSection(props: ControlButtonProps) {
       data-id={data_idName}
       onClick={() => PageTransition(positionOfControlButton)}
     >
-      <FontAwesomeIcon icon={buttonIcon} />
+      <FontAwesomeIcon icon={buttonIcon} className="control-button-icon" />
     </div>
   );
 }
