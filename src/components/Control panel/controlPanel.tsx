@@ -9,7 +9,7 @@ import {
 
 function ControlPanel() {
   return (
-    <div className="controls">
+    <div className="control-panel">
       <ControlButtonForSection
         buttonIcon={faHome}
         positionOfControlButton={1}
