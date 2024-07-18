@@ -71,7 +71,7 @@ section {
   transform: translateY(0) scale(1);
 }
 
-.active {
+.active-section {
   display: block;
   animation: scaleAnimation 0.4s ease-in-out;
 }
@@ -86,7 +86,7 @@ section {
 }
 
 /*controls*/
-.controls {
+.control-panel {
   position: fixed;
   z-index: 10;
   top: 50%;
@@ -96,7 +96,7 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  .active-btn {
+  .active-button {
     background-color: var(--color-secondary) !important;
     transition: all 0.4s ease-in-out;
     i {
@@ -115,11 +115,33 @@ section {
     align-items: center;
     margin: 0.7rem 0;
     box-shadow: var(--box-shadow-1);
-    i {
+    .control-button-icon {
       font-size: 1.2rem;
       color: var(--color-grey-2);
       pointer-events: none;
     }
+  }
+}
+
+.theme-button{
+  top: 3%;
+  right: 3%;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--box-shadow-1);
+  transition: all .1s ease-in-out;
+  .theme-button-icon {
+    font-size: 1.2rem;
+    color: var(--color-grey-2);
+    pointer-events: none;
   }
 }
 
