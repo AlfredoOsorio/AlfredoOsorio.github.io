@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e7c846b.css",
-    "main.js": "/static/js/main.ada34b7a.js",
+    "main.css": "/static/css/main.837b3307.css",
+    "main.js": "/static/js/main.1271ae5c.js",
     "static/js/787.bdc7c448.chunk.js": "/static/js/787.bdc7c448.chunk.js",
     "static/media/me.png": "/static/media/me.cae5f32d0658e77bff61.png",
     "static/media/portfolio1 - Drum kit.jpg": "/static/media/portfolio1 - Drum kit.d992ba3089334cf34ecb.jpg",
@@ -9,12 +9,12 @@
     "static/media/portfolio2 - Dice game.jpg": "/static/media/portfolio2 - Dice game.9b816703c62a4ff2a137.jpg",
     "static/media/portfolio3 - Simon says.jpg": "/static/media/portfolio3 - Simon says.ead1b9c4de59795535a9.jpg",
     "index.html": "/index.html",
-    "main.6e7c846b.css.map": "/static/css/main.6e7c846b.css.map",
-    "main.ada34b7a.js.map": "/static/js/main.ada34b7a.js.map",
+    "main.837b3307.css.map": "/static/css/main.837b3307.css.map",
+    "main.1271ae5c.js.map": "/static/js/main.1271ae5c.js.map",
     "787.bdc7c448.chunk.js.map": "/static/js/787.bdc7c448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e7c846b.css",
-    "static/js/main.ada34b7a.js"
+    "static/css/main.837b3307.css",
+    "static/js/main.1271ae5c.js"
   ]
 }
