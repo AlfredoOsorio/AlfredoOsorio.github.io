@@ -1,8 +1,9 @@
 import "./App.scss";
 import ControlPanel from "./components/Control panel/controlPanel";
+import DarkThemeButton from "./components/Control panel/darkThemeButton";
 import MainSectionAbout from "./components/Sections/About/mainSectionAbout";
 import MainSectionContact from "./components/Sections/Contact/mainSectionContact";
-import MainSectionHeader from "./components/Sections/Header/mainSectionHeader"
+import MainSectionHeader from "./components/Sections/Header/mainSectionHeader";
 import MainSectionPortfolio from "./components/Sections/Portfolio Section/mainSectionPortfolio";
 
 function App() {
@@ -12,13 +13,15 @@ function App() {
         <MainSectionHeader />
         <main>
           <MainSectionAbout />
-          
+
           <MainSectionPortfolio />
 
-          <MainSectionContact  />
+          <MainSectionContact />
         </main>
 
         <ControlPanel />
+
+        <DarkThemeButton />
       </body>
     </div>
   );
