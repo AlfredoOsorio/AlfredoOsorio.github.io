@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7b762a5.css",
-    "main.js": "/static/js/main.354a7d62.js",
+    "main.css": "/static/css/main.ce33898a.css",
+    "main.js": "/static/js/main.8b4d5b40.js",
     "static/js/787.bdc7c448.chunk.js": "/static/js/787.bdc7c448.chunk.js",
     "static/media/me.png": "/static/media/me.cae5f32d0658e77bff61.png",
     "static/media/portfolio1 - Drum kit.jpg": "/static/media/portfolio1 - Drum kit.d992ba3089334cf34ecb.jpg",
@@ -9,12 +9,12 @@
     "static/media/portfolio2 - Dice game.jpg": "/static/media/portfolio2 - Dice game.9b816703c62a4ff2a137.jpg",
     "static/media/portfolio3 - Simon says.jpg": "/static/media/portfolio3 - Simon says.ead1b9c4de59795535a9.jpg",
     "index.html": "/index.html",
-    "main.d7b762a5.css.map": "/static/css/main.d7b762a5.css.map",
-    "main.354a7d62.js.map": "/static/js/main.354a7d62.js.map",
+    "main.ce33898a.css.map": "/static/css/main.ce33898a.css.map",
+    "main.8b4d5b40.js.map": "/static/js/main.8b4d5b40.js.map",
     "787.bdc7c448.chunk.js.map": "/static/js/787.bdc7c448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7b762a5.css",
-    "static/js/main.354a7d62.js"
+    "static/css/main.ce33898a.css",
+    "static/js/main.8b4d5b40.js"
   ]
 }
