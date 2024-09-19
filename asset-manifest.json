@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.04638c29.css",
+    "main.css": "/static/css/main.78adc01e.css",
     "main.js": "/static/js/main.dddd5b57.js",
     "static/js/787.bdc7c448.chunk.js": "/static/js/787.bdc7c448.chunk.js",
     "static/media/me.png": "/static/media/me.cae5f32d0658e77bff61.png",
@@ -12,12 +12,12 @@
     "static/media/portfolio2 - Dice game.jpg": "/static/media/portfolio2 - Dice game.9b816703c62a4ff2a137.jpg",
     "static/media/portfolio3 - Simon says.jpg": "/static/media/portfolio3 - Simon says.ead1b9c4de59795535a9.jpg",
     "index.html": "/index.html",
-    "main.04638c29.css.map": "/static/css/main.04638c29.css.map",
+    "main.78adc01e.css.map": "/static/css/main.78adc01e.css.map",
     "main.dddd5b57.js.map": "/static/js/main.dddd5b57.js.map",
     "787.bdc7c448.chunk.js.map": "/static/js/787.bdc7c448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04638c29.css",
+    "static/css/main.78adc01e.css",
     "static/js/main.dddd5b57.js"
   ]
 }
