@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5eef8fd8.css",
-    "main.js": "/static/js/main.600b0da5.js",
+    "main.css": "/static/css/main.c5504fe8.css",
+    "main.js": "/static/js/main.72308a77.js",
     "static/js/787.bdc7c448.chunk.js": "/static/js/787.bdc7c448.chunk.js",
     "static/media/me.png": "/static/media/me.cae5f32d0658e77bff61.png",
+    "static/media/portfolio5 - Colegio Apostol - People and Brand.jpg": "/static/media/portfolio5 - Colegio Apostol - People and Brand.6cc04b5f12f28a8f8492.jpg",
+    "static/media/portfolio7 - Petsclan - People and Brand.jpg": "/static/media/portfolio7 - Petsclan - People and Brand.03cdd3d83e67aecf93e1.jpg",
+    "static/media/portfolio6 - A2i - People and Brand.jpg": "/static/media/portfolio6 - A2i - People and Brand.f7883a970be997160fa1.jpg",
     "static/media/portfolio1 - Drum kit.jpg": "/static/media/portfolio1 - Drum kit.d992ba3089334cf34ecb.jpg",
     "static/media/portfolio4 - Keeper app.jpg": "/static/media/portfolio4 - Keeper app.43066c187353ec62b616.jpg",
     "static/media/portfolio2 - Dice game.jpg": "/static/media/portfolio2 - Dice game.9b816703c62a4ff2a137.jpg",
     "static/media/portfolio3 - Simon says.jpg": "/static/media/portfolio3 - Simon says.ead1b9c4de59795535a9.jpg",
     "index.html": "/index.html",
-    "main.5eef8fd8.css.map": "/static/css/main.5eef8fd8.css.map",
-    "main.600b0da5.js.map": "/static/js/main.600b0da5.js.map",
+    "main.c5504fe8.css.map": "/static/css/main.c5504fe8.css.map",
+    "main.72308a77.js.map": "/static/js/main.72308a77.js.map",
     "787.bdc7c448.chunk.js.map": "/static/js/787.bdc7c448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eef8fd8.css",
-    "static/js/main.600b0da5.js"
+    "static/css/main.c5504fe8.css",
+    "static/js/main.72308a77.js"
   ]
 }
